@@ -11,4 +11,6 @@ A Spring Cloud Data Flow workshop
 4. [`thumbinator`](https://github.com/mmcvay-pivotal/scdf-workshop/tree/master/labs/trucks-example/thumbinator) — a task/batch-job that can create thumbnails from images
 
 ## Presentation
-[Getting Started with Spring Cloud Data Flow](https://github.com/mmcvay-pivotal/scdf workshop/tree/master/decks/SpringOne_2020__Getting_Started_with_Spring_Cloud_Data_Flow.pdf)
+[Getting Started with Spring Cloud Data Flow]
+
+(https://github.com/mmcvay-pivotal/scdf-workshop/tree/master/decks/SpringOne_2020__Getting_Started_with_Spring_Cloud_Data_Flow.pdf)
