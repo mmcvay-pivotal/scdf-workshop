@@ -1,4 +1,0 @@
-source.trucks=docker:dev.local/trucks:0.0.1-SNAPSHOT
-processor.brake-temperature=docker:dev.local/brake-temperature:0.0.1-SNAPSHOT
-sink.brake-log=docker:dev.local/brake-logs:0.0.1-SNAPSHOT
-

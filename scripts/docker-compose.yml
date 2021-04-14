@@ -75,6 +75,7 @@ services:
       # (Optionally) authenticate the default Docker Hub access for the App Metadata access.
       - SPRING_CLOUD_DATAFLOW_CONTAINER_REGISTRY_CONFIGURATIONS_DEFAULT_USER=${METADATA_DEFAULT_DOCKERHUB_USER}
       - SPRING_CLOUD_DATAFLOW_CONTAINER_REGISTRY_CONFIGURATIONS_DEFAULT_SECRET=${METADATA_DEFAULT_DOCKERHUB_PASSWORD}
+      - SPRING_CLOUD_DATAFLOW_FEATURES.SCHEDULES-ENABLED=true
     depends_on:
       - kafka-broker
     entrypoint: "./wait-for-it.sh -t 180 skipper-server:7577 -- java -jar /maven/spring-cloud-dataflow-server.jar"

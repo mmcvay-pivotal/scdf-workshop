@@ -1,0 +1,10 @@
+#This is the config for the stream example
+
+source.trucks=docker:dev.local/trucks:0.0.1-SNAPSHOT
+processor.brake-temperature=docker:dev.local/brake-temperature:0.0.1-SNAPSHOT
+sink.brake-log=docker:dev.local/brake-logs:0.0.1-SNAPSHOT
+
+
+#This is the config for the Task example
+
+task.thumbinator=docker:dev.local/thumbinator:0.0.1-SNAPSHOT

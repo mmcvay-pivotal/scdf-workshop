@@ -6,4 +6,4 @@ export COMPOSE_PROJECT_NAME=scdf
 
 dir="${0%/*}"
 
-docker-compose -f "$dir"/docker-compose.yml -f "$dir"/docker-compose-prometheus.yml -f "$dir"/docker-compose-dood.yml down
+docker-compose -f "$dir"/docker-compose.yml -f "$dir"/docker-compose-prometheus.yml -f "$dir"/docker-compose-dood.yml down --remove-orphans

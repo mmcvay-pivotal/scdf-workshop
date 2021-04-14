@@ -1,0 +1,1 @@
+truck-performance = trucks --spring.cloud.stream.function.bindings.generateTruck-out-0=output | brake-temperature --spring.cloud.stream.function.bindings.processBrakeTemperature-in-0=input --spring.cloud.stream.function.bindings.processBrakeTemperature-out-0=output | brake-log --spring.cloud.stream.function.bindings.log-in-0=input

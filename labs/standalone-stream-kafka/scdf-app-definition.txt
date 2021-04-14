@@ -1,0 +1,3 @@
+source.usage-detail-sender=docker:springcloudstream/usage-detail-sender-kafka:0.0.1-SNAPSHOT
+processor.usage-cost-processor=docker:springcloudstream/usage-cost-processor-kafka:0.0.1-SNAPSHOT
+sink.usage-cost-logger=docker:springcloudstream/usage-cost-logger-kafka:0.0.1-SNAPSHOT
